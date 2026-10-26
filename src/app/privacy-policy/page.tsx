@@ -6,6 +6,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy | Mantra Van",
   description: "Privacy Policy and data practices for Mantra Van (mantravan.in).",
+  alternates: {
+    canonical: "https://www.mantravan.in/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {

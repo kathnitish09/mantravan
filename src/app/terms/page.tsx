@@ -6,6 +6,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service | Mantra Van",
   description: "Terms and Conditions governing the use of Mantra Van (mantravan.in).",
+  alternates: {
+    canonical: "https://www.mantravan.in/terms",
+  },
 };
 
 export default function TermsPage() {

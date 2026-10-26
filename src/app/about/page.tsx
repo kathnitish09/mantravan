@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "About Mantra Van | Mystical Sacred Forest Sanctuary",
   description:
     "Learn about the philosophy, craftsmanship, and purpose behind Mantra Van (mantravan.in) — where every mantra becomes a journey within.",
+  alternates: {
+    canonical: "https://www.mantravan.in/about",
+  },
 };
 
 export default function AboutPage() {

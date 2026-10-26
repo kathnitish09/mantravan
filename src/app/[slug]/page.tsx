@@ -44,12 +44,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: item.seoDescription,
     keywords: item.keywords,
     alternates: {
-      canonical: `https://mantravan.in/${item.slug}`,
+      canonical: `https://www.mantravan.in/${item.slug}`,
     },
     openGraph: {
       title: item.seoTitle,
       description: item.seoDescription,
-      url: `https://mantravan.in/${item.slug}`,
+      url: `https://www.mantravan.in/${item.slug}`,
       siteName: "MANTRA VAN",
       locale: "hi_IN",
       type: "article",
@@ -82,18 +82,18 @@ export default function ContentPage({ params, searchParams }: PageProps) {
     author: {
       "@type": "Organization",
       name: "MANTRA VAN",
-      url: "https://mantravan.in",
+      url: "https://www.mantravan.in",
     },
     publisher: {
       "@type": "Organization",
       name: "MANTRA VAN",
       logo: {
         "@type": "ImageObject",
-        url: "https://mantravan.in/logo.png",
+        url: "https://www.mantravan.in/logo.png",
       },
     },
     datePublished: item.publishedDate,
-    mainEntityOfPage: `https://mantravan.in/${item.slug}`,
+    mainEntityOfPage: `https://www.mantravan.in/${item.slug}`,
   };
 
   const bgImage =

@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { getAllContent } from "../data/content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://mantravan.in";
+  const baseUrl = "https://www.mantravan.in";
   const items = getAllContent();
 
   const staticRoutes: MetadataRoute.Sitemap = [

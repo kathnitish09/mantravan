@@ -112,12 +112,12 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     title: `${meta.title} (${meta.hindiTitle}) | Mantra Van`,
     description: meta.description,
     alternates: {
-      canonical: `https://mantravan.in/category/${params.category}`,
+      canonical: `https://www.mantravan.in/category/${params.category}`,
     },
     openGraph: {
       title: `${meta.title} — ${meta.sanctuary} | Mantra Van`,
       description: meta.description,
-      url: `https://mantravan.in/category/${params.category}`,
+      url: `https://www.mantravan.in/category/${params.category}`,
     },
   };
 }

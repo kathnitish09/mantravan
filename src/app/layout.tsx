@@ -5,7 +5,10 @@ export const metadata: Metadata = {
   title: "MANTRA VAN | Where Every Mantra Becomes a Journey Within",
   description:
     "Enter the sacred mystical forest of Mantra Van. Discover ancient spiritual wisdom, synchronized Hanuman Chalisa scroll, 108 Jaap meditation, sacred aartis, and peaceful mantras.",
-  metadataBase: new URL("https://mantravan.in"),
+  metadataBase: new URL("https://www.mantravan.in"),
+  alternates: {
+    canonical: "https://www.mantravan.in",
+  },
   keywords: [
     "Mantra Van",
     "Hanuman Chalisa",
@@ -24,7 +27,7 @@ export const metadata: Metadata = {
     title: "MANTRA VAN | Where Every Mantra Becomes a Journey Within",
     description:
       "A mystical sacred forest sanctuary for ancient mantras, synchronized chalisa manuscripts, 108 jaap counters, and dhyan meditation.",
-    url: "https://mantravan.in",
+    url: "https://www.mantravan.in",
     siteName: "MANTRA VAN",
     images: [
       {

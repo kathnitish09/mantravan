@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Spiritual & Medical Disclaimer | Mantra Van",
   description:
     "Important spiritual context and non-medical advisory for Mantra Van devotional practices.",
+  alternates: {
+    canonical: "https://www.mantravan.in/disclaimer",
+  },
 };
 
 export default function DisclaimerPage() {
